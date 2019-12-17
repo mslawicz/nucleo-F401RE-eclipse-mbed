@@ -1,6 +1,5 @@
 #include "mbed.h"
 #include "platform/mbed_debug.h"
-#include "platform/mbed_error.h"
 
 void print_char(char c = '*')
 {
@@ -24,7 +23,6 @@ int main()
 {
     printf("\n\n*** RTOS basic example ***\n");
     debug("this is a debug text\r\n");
-    error("error\r\n");
 
     thread.start(print_thread);
 
