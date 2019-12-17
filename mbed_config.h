@@ -34,9 +34,9 @@
 #define MBED_CONF_EVENTS_USE_LOWPOWER_TIMER_TICKER        0                            // set by library:events
 #define MBED_CONF_FILESYSTEM_PRESENT                      1                            // set by library:filesystem
 #define MBED_CONF_NSAPI_PRESENT                           1                            // set by library:nsapi
-#define MBED_CONF_PLATFORM_DEFAULT_SERIAL_BAUD_RATE       9600                         // set by library:platform
+#define MBED_CONF_PLATFORM_DEFAULT_SERIAL_BAUD_RATE       115200                       // set by library:platform
 #define MBED_CONF_PLATFORM_FORCE_NON_COPYABLE_ERROR       0                            // set by library:platform
-#define MBED_CONF_PLATFORM_STDIO_BAUD_RATE                9600                         // set by library:platform
+#define MBED_CONF_PLATFORM_STDIO_BAUD_RATE                115200                       // set by library:platform
 #define MBED_CONF_PLATFORM_STDIO_CONVERT_NEWLINES         0                            // set by library:platform
 #define MBED_CONF_PLATFORM_STDIO_FLUSH_AT_EXIT            1                            // set by library:platform
 #define MBED_CONF_PPP_CELL_IFACE_APN_LOOKUP               0                            // set by library:ppp-cell-iface

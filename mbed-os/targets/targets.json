@@ -1004,7 +1004,8 @@
         "macros_add": ["USB_STM_HAL", "USBHOST_OTHER"],
         "device_has_add": ["SERIAL_ASYNCH", "SERIAL_FC", "FLASH"],
         "release_versions": ["2", "5"],
-        "device_name": "STM32F401RE"
+        "device_name": "STM32F401RE",
+        "platform.stdio-baud-rate": 115200
     },
     "NUCLEO_F410RB": {
         "inherits": ["FAMILY_STM32"],

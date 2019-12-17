@@ -1,4 +1,5 @@
 #include "mbed.h"
+#include "platform/mbed_debug.h"
 
 void print_char(char c = '*')
 {
@@ -21,11 +22,12 @@ void print_thread()
 int main()
 {
     printf("\n\n*** RTOS basic example ***\n");
+    debug("this is a debug text\r\n");
 
     thread.start(print_thread);
 
     while (true) {
         led1 = !led1;
-        wait(0.25);
+        wait(0.2);
     }
 }
